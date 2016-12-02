@@ -13,7 +13,7 @@ body{
     margin: 0 auto;
 }
 .flex-container{
-	/*display:flex;*/
+	display: flex;
 	background-color: darkcyan;
 }
 /*.flex-container:after{
