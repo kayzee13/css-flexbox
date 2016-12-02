@@ -12,4 +12,26 @@ body{
     max-width: 960px;
     margin: 0 auto;
 }
-
+.flex-container{
+	/*display:flex;*/
+	background-color: darkcyan;
+}
+/*.flex-container:after{
+	content: "";
+	display: block;
+	clear: both;
+}*/
+.box{
+	height:100px;
+	min-width: 200px;
+	float: left;
+}
+.one{
+	background: red;
+}
+.two{
+	background: coral;
+}
+.three{
+	background: lightgreen;
+}
