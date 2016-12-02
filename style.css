@@ -1,4 +1,4 @@
-/*FLEX-GROW EXAMPLE*/
+/*FLEX-SHRINK EXAMPLE*/
 
 *{
 	font-family: verdana;
@@ -21,18 +21,18 @@ body{
 
 .box{
 	height:100px;
-	min-width: 100px;
-	flex-grow: 1;
+	width:330px;
+
 }
 .one{
 	background: red;
-	flex-grow: 1;
+	flex-shrink:1;
 }
 .two{
 	background: coral;
-	flex-grow: 2;
+	flex-shrink:2;
 }
 .three{
 	background: lightgreen;
-	flex-grow:3;
+	flex-shrink: 3;
 }
